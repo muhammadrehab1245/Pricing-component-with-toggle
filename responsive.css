@@ -1,0 +1,11 @@
+.p-boxes {
+    align-items: center;
+    flex-direction: column;}
+
+    #p-2{
+        width: 296px;
+    }
+
+    .p-box{
+        width:296px;
+    }

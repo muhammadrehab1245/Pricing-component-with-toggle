@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pricingcomponent.css">
+    <link rel="stylesheet" media="screen and (max-width:710px)" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@700&family=Titan+One&display=swap" rel="stylesheet">
+    <title>Pricing component with toggle</title>
+</head>
+<body>
+    <header class="topping">
+        <h1 id="headerhead">Our Pricing</h1>
+    </header>
+
+    <section id="togglesection">
+        <div id="annually">
+            <h3>Annually</h3>
+        </div>
+
+        <label class="switch">
+            <input class="sw" type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+        
+        <div id="manually">
+            <h3>Monthly</h3>
+        </div>
+    </section>
+
+    <section id="prices-sec">
+        <div class="p-boxes">
+
+            <div class="p-box" id="p-1">
+                <div class="price-category">
+                    <h3>Basic</h3>
+                </div>
+                <div class="price">
+                    <h1 id="category-h1">$19.99</h1>
+                </div>
+                <div class="info">
+                    <hr>
+                    <p>500 GB Storage</p>
+                    <hr>
+                    <p>2 Users Allowed</p>
+                    <hr>
+                    <p>Send Up to 3 GB</p>
+                    <hr>
+                </div>
+
+                <div class="btndiv">
+                    <button class="btn btn1">Learn More</button>
+                </div>
+            </div>
+
+            <div class="p-box" id="p-2">
+                <div class="price-category">
+                    <h3>Professional</h3>
+                </div>
+                <div class="price">
+                    <h1 id="category-h2">$24.99</h1>
+                </div>
+    
+                <div class="info">
+                    <hr>
+                    <p>1 TB Storage</p>
+                    <hr>
+                    <p>5 Users Allowed</p>
+                    <hr>
+                    <p>Send Up to 10 GB</p>
+                    <hr>
+                </div>
+
+                <div class="btndiv">
+                    <button class="btn btn2">Learn More</button>
+                </div>
+            </div>
+            
+            <div class="p-box"  id="p-3">
+                <div class="price-category">
+                    <h3>Master</h3>
+                </div>
+                <div class="price">
+                    <h1 id="category-h3">$39.99</h1>
+                </div>
+    
+                <div class="info">
+                    <hr class="line">
+                    <p>2 TB Storage</p>
+                    <hr>
+                    <p>10 Users Allowed</p>
+                    <hr>
+                    <p>Send Up to 20 GB</p>
+                    <hr>
+                </div>
+
+                <div class="btndiv">
+                    <button class="btn btn3">Learn More</button>
+                </div>
+            </div>
+            </div>
+        </div>  
+    </section>
+    
+</body>
+
+    <script src="pricecomponent.js"></script>
+</html>
